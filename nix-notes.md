@@ -9,3 +9,6 @@ https://nixos.wiki/wiki/Nixpkgs_with_OpenGL_on_non-NixOS can provide the solutio
 `nixGL` has worked for me, however getting the built in nvidia graphics card has been a challenge on wsl2 and currently does not work correctly...
 
 
+links to blogs / resources:
+https://ianthehenry.com/posts/how-to-learn-nix/introduction/
+https://serokell.io/blog/practical-nix-flakes
