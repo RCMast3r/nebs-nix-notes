@@ -1,0 +1,2 @@
+- nix can work with docker
+    - nix can build docker images (nixpkgsUnstable.dockerTools)
