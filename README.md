@@ -22,11 +22,13 @@ anything after let and before in are variable declarations and anything after in
 
 `with asdf` = `using namespace asdf`
 
+`<input-package>.follows = <other-package>` means that the package will use the other packages inputs first I believe, then it will also include its required ones. I think that means that it will use the same version of an input that is required for both the following input package and the other package?
+
 ### nix language
 
 anything with `{ }` is a set or a list of key value pairs.
 
-adding rec to a set allows the set to reference itself, or use parts of itself.
+adding `rec` to a set allows the set to reference itself, or use parts of itself.   
 
 ### nix notes
 
